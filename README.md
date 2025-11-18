@@ -1,9 +1,9 @@
 # OPEN-SOURCE-EX-7
 ## NAME : MANOJ G
 ## REG NO : 212222240060
-## DEPT : AIML
+
 # STEPS TO DO :
-### STEP 1 : sudo pvcreate /dev/sdb
+## STEP 1 : sudo pvcreate /dev/sdb
 ### STEP 2 : sudo vgcreate -s 8M vg_backup /dev/sdb
 ### STEP 3 : vgdisplay vg_backup | grep "PE Size"
 ### STEP 4 : PE Size               8.00 MiB
